@@ -1,0 +1,93 @@
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\bin\ComeauWebsite.dll
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\bin\ComeauWebsite.pdb
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\obj\Debug\ComeauWebsite.dll
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\obj\Debug\ComeauWebsite.pdb
+C:\Documents and Settings\Andrew\Desktop\TestTwo\ComeauWebsite\bin\ComeauWebsite.dll
+C:\Documents and Settings\Andrew\Desktop\TestTwo\ComeauWebsite\bin\ComeauWebsite.pdb
+C:\Documents and Settings\Andrew\Desktop\TestTwo\ComeauWebsite\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\Desktop\TestTwo\ComeauWebsite\obj\Debug\ComeauWebsite.dll
+C:\Documents and Settings\Andrew\Desktop\TestTwo\ComeauWebsite\obj\Debug\ComeauWebsite.pdb
+C:\Documents and Settings\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.dll
+C:\Documents and Settings\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.pdb
+C:\Documents and Settings\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.dll
+C:\Documents and Settings\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.pdb
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.pdb
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\obj\Debug\ResolveAssemblyReference.cache
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.pdb
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\AjaxControlToolkit.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\AntiXSSLibrary.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\HtmlSanitizationLibrary.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\SanitizerProviders.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\AjaxControlToolkit.pdb
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\ar\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\cs\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\de\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\es\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\fr\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\he\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\hi\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\it\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\ja\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\ko\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\nl\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\pt\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\ru\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Data\Project Files\AndrewComeau.com\ComeauWebsite\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.pdb
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\AjaxControlToolkit.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\SanitizerProviders.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.pdb
+S:\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.pdb
+S:\AndrewComeau.com\ComeauWebsite\bin\AjaxControlToolkit.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\AntiXSSLibrary.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\HtmlSanitizationLibrary.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\SanitizerProviders.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\AjaxControlToolkit.pdb
+S:\AndrewComeau.com\ComeauWebsite\bin\ar\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\cs\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\de\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\es\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\fr\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\he\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\hi\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\it\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\ja\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\ko\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\nl\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\pt\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\ru\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\tr-TR\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\zh-CHS\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\bin\zh-CHT\AjaxControlToolkit.resources.dll
+S:\AndrewComeau.com\ComeauWebsite\obj\Debug\ResolveAssemblyReference.cache
+S:\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.dll
+S:\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.pdb
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\ComeauWebsite.dll.config
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\bin\HtmlAgilityPack.dll
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\AndrewComeau.com\ComeauWebsite\obj\Debug\ComeauWebsite.csproj.CopyComplete

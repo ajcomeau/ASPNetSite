@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0EFBBB7B-EB74-49AE-978A-497877804C6F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComeauWebsite</RootNamespace>
+    <AssemblyName>ComeauWebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60919\lib\40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60919\lib\40\SanitizerProviders\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SanitizerProviders">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60919\lib\40\SanitizerProviders\SanitizerProviders.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="403error.htm" />
+    <Content Include="404error.aspx" />
+    <Content Include="adminpanel.aspx" />
+    <Content Include="Articles\201206051547.aspx" />
+    <Content Include="Articles\201206100849.aspx" />
+    <Content Include="Articles\201206100958.aspx" />
+    <Content Include="Articles\using-typed-datasets.aspx" />
+    <Content Include="Articles\dataclass.htm" />
+    <Content Include="Articles\Default.aspx" />
+    <Content Include="Articles\moving-to-visual-studio.aspx" />
+    <Content Include="Articles\pageload.htm" />
+    <Content Include="Articles\pageload2.htm" />
+    <Content Include="Articles\pageload3.htm" />
+    <Content Include="Articles\questions-to-ask-interviewers.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="errorPage.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Graphics\Books\00001.jpg" />
+    <Content Include="Graphics\Books\00002.jpg" />
+    <Content Include="Graphics\Books\00003.jpg" />
+    <Content Include="Graphics\Books\00004.jpg" />
+    <Content Include="Graphics\Books\00005.jpg" />
+    <Content Include="Graphics\Books\00006.jpg" />
+    <Content Include="Graphics\Books\00007.jpg" />
+    <Content Include="Graphics\Books\112263.jpg" />
+    <Content Include="Graphics\Books\1776.jpg" />
+    <Content Include="Graphics\Books\aceinterview.jpg" />
+    <Content Include="Graphics\Books\Algorithms.jpg" />
+    <Content Include="Graphics\Books\ApocalypseCow.jpg" />
+    <Content Include="Graphics\Books\ASP3524Hours.jpg" />
+    <Content Include="Graphics\Books\ASUSMonitor.jpg" />
+    <Content Include="Graphics\Books\BeautifulCode.jpg" />
+    <Content Include="Graphics\Books\BobSeger.jpg" />
+    <Content Include="Graphics\Books\CSS3.jpg" />
+    <Content Include="Graphics\Books\DadIsFat.jpg" />
+    <Content Include="Graphics\Books\DemonHauntedWorld.jpg" />
+    <Content Include="Graphics\Books\firstguidecover.jpg" />
+    <Content Include="Graphics\Books\GiftedHands.jpg" />
+    <Content Include="Graphics\Books\GrandDesign.jpg" />
+    <Content Include="Graphics\Books\HistoryOfTime.jpg" />
+    <Content Include="Graphics\Books\HobbitDesign.jpg" />
+    <Content Include="Graphics\Books\html5.jpg" />
+    <Content Include="Graphics\Books\InsideLlewynDavis.jpg" />
+    <Content Include="Graphics\Books\javascript.jpg" />
+    <Content Include="Graphics\Books\jscriptjquery.jpg" />
+    <Content Include="Graphics\Books\letters.jpg" />
+    <Content Include="Graphics\Books\LittleGreenMen.jpg" />
+    <Content Include="Graphics\Books\mab2.jpg" />
+    <Content Include="Graphics\Books\MemoryOfLight.jpg" />
+    <Content Include="Graphics\Books\PHPJScript.jpg" />
+    <Content Include="Graphics\Books\ProgrammingWindows.jpg" />
+    <Content Include="Graphics\Books\Revenge.jpg" />
+    <Content Include="Graphics\Books\Streetcat.jpg" />
+    <Content Include="Graphics\Books\TheCircle.jpg" />
+    <Content Include="Graphics\Books\TheKid.jpg" />
+    <Content Include="Graphics\Books\ThinkBig.jpg" />
+    <Content Include="Graphics\Books\Thrive.jpg" />
+    <Content Include="Graphics\Books\TimeTravelersWife.jpg" />
+    <Content Include="Graphics\Books\VS2008SBS.jpg" />
+    <Content Include="Graphics\Books\WhoMadeGod.jpg" />
+    <Content Include="Graphics\Content\001-origheader.jpg" />
+    <Content Include="Graphics\Content\002-origheader.jpg" />
+    <Content Include="Graphics\Content\003-music.jpg" />
+    <Content Include="Graphics\Content\004-elo.jpg" />
+    <Content Include="Graphics\Content\005-dircompare.jpg" />
+    <Content Include="Graphics\Content\006-save.jpg" />
+    <Content Include="Graphics\Content\008-errors.jpg" />
+    <Content Include="Graphics\Content\009-hammer.gif" />
+    <Content Include="Graphics\Content\009-library.jpg" />
+    <Content Include="Graphics\Content\010-connections.gif" />
+    <Content Include="Graphics\Content\010-walkalone.jpg" />
+    <Content Include="Graphics\Content\011-TRS80.jpg" />
+    <Content Include="Graphics\Content\012-lightning.jpg" />
+    <Content Include="Graphics\Content\013-office.jpg" />
+    <Content Include="Graphics\Content\014-sherlock.jpg" />
+    <Content Include="Graphics\Content\015-clock.jpg" />
+    <Content Include="Graphics\Content\016-GO.jpg" />
+    <Content Include="Graphics\Content\017-CrystalBall.jpg" />
+    <Content Include="Graphics\Content\018-http.jpg" />
+    <Content Include="Graphics\Content\019-pattern.jpg" />
+    <Content Include="Graphics\Content\020-runner.jpg" />
+    <Content Include="Graphics\Content\021-dataset.jpg" />
+    <Content Include="Graphics\Content\022-newdataset.jpg" />
+    <Content Include="Graphics\Content\023-datasetquotes.jpg" />
+    <Content Include="Graphics\Content\024-codebehind.jpg" />
+    <Content Include="Graphics\Content\025-randomquote.jpg" />
+    <Content Include="Graphics\Content\026-design.jpg" />
+    <Content Include="Graphics\Content\027-download.jpg" />
+    <Content Include="Graphics\Content\028-question.jpg" />
+    <Content Include="Graphics\Content\029-sitedataset.jpg" />
+    <Content Include="Graphics\Content\boss.jpg" />
+    <Content Include="Graphics\Content\CardImage.jpg" />
+    <Content Include="Graphics\Content\CardImageTwo.jpg" />
+    <Content Include="Graphics\Content\javascript.jpg" />
+    <Content Include="Graphics\Content\mab.jpg" />
+    <Content Include="Graphics\Content\MCP%28rgb%29.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\015-accesstable.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\016-newproject.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\017-projectstart.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\018-newitem.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\019-datamodel.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\020-objects.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\021-datagrid1.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\022-gridsource.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\023-boundgrid.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\024-flow.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\025-navbar.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\026-barproperties.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\027-apprun.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\028-button.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\029-bin.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\030-folder.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\031-dsconfig1.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\031-dsconfig2.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\031-dsconfig3.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\031-dsconfig4.jpg" />
+    <Content Include="Graphics\Content\moving-to-visual-studio\031-dsconfig5.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\001-Welcome.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\002-License.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\003-Begin.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\004-Progress.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\005-Complete.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\005a-Open.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\006-SQLStart.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\007-Main.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\008-License.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\009-Updates.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\010-Progress.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\011-Options.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\011a-Options.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\012-Error.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\013-Complete.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\014-Menu.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\015-Connect.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\016-Finished.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\017-Path.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB001.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB002.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB003.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB004.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB005.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB006.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB007.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB008.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB009.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB010.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB011.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB012.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB012s.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB013.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB014.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB015.jpg" />
+    <Content Include="Graphics\Content\MSSBImages\MSSB016.jpg" />
+    <Content Include="Graphics\Content\netslow.jpg" />
+    <Content Include="Graphics\Content\sitetraffic.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen001.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen001s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen002.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen002s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen003.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen003s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen004.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen004s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen005.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen005s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen006.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen006s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen007a.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen007b.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen007sa.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen007sb.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008a.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008b.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008c.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008d.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008sa.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008sb.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008sc.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen008sd.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen009.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen009s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen010.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen010s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen011.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen011s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen012.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen012s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen013.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen013s.jpg" />
+    <Content Include="Graphics\Content\SQLInstPics\screen014.jpg" />
+    <Content Include="Graphics\firstguide\hr_training.jpg" />
+    <Content Include="Graphics\firstguide\hr_training_small.jpg" />
+    <Content Include="Graphics\firstguide\jspmodel.jpg" />
+    <Content Include="Graphics\firstguide\jspmodel_small.jpg" />
+    <Content Include="Graphics\general\a.com_logo_RGB.jpg" />
+    <Content Include="Graphics\general\bn.jpg" />
+    <Content Include="Graphics\general\pinterest.png" />
+    <Content Include="Graphics\general\scribd.jpg" />
+    <Content Include="Graphics\jsplus\001-EnterNewLeads.jpg" />
+    <Content Include="Graphics\jsplus\002-CompanyNotFound.jpg" />
+    <Content Include="Graphics\jsplus\003-CompanyEdit-small.jpg" />
+    <Content Include="Graphics\jsplus\003-CompanyEdit.jpg" />
+    <Content Include="Graphics\jsplus\004-ContactEdit-small.jpg" />
+    <Content Include="Graphics\jsplus\004-ContactEdit.jpg" />
+    <Content Include="Graphics\jsplus\005-QuickEntry-small.jpg" />
+    <Content Include="Graphics\jsplus\005-QuickEntry.jpg" />
+    <Content Include="Graphics\jsplus\006-AttachmentAdd.jpg" />
+    <Content Include="Graphics\jsplus\007-ResourceEdit-small.jpg" />
+    <Content Include="Graphics\jsplus\007-ResourceEdit.jpg" />
+    <Content Include="Graphics\jsplus\008-LeadDetailFrame-small.jpg" />
+    <Content Include="Graphics\jsplus\008-LeadDetailFrame.jpg" />
+    <Content Include="Graphics\jsplus\009-LeadDetailInternal-small.jpg" />
+    <Content Include="Graphics\jsplus\009-LeadDetailInternal.jpg" />
+    <Content Include="Graphics\jsplus\010-LeadDetailCompany-small.jpg" />
+    <Content Include="Graphics\jsplus\010-LeadDetailCompany.jpg" />
+    <Content Include="Graphics\jsplus\011-LeadDetailContact-small.jpg" />
+    <Content Include="Graphics\jsplus\011-LeadDetailContact.jpg" />
+    <Content Include="Graphics\jsplus\012-LeadsListing-small.jpg" />
+    <Content Include="Graphics\jsplus\012-LeadsListing.jpg" />
+    <Content Include="Graphics\jsplus\013-LeadsListingSort-small.jpg" />
+    <Content Include="Graphics\jsplus\013-LeadsListingSort.jpg" />
+    <Content Include="Graphics\jsplus\014-LeadDetailReport-small.jpg" />
+    <Content Include="Graphics\jsplus\014-LeadDetailReport.jpg" />
+    <Content Include="Graphics\jsplus\015-ReportOptions-small.jpg" />
+    <Content Include="Graphics\jsplus\015-ReportOptions.jpg" />
+    <Content Include="Graphics\jsplus\016-ReportOptions-small.jpg" />
+    <Content Include="Graphics\jsplus\016-ReportOptions.jpg" />
+    <Content Include="Graphics\jsplus\017-Maintenance-small.jpg" />
+    <Content Include="Graphics\jsplus\017-Maintenance.jpg" />
+    <Content Include="Graphics\jsplus\018-LeadSummary-small.jpg" />
+    <Content Include="Graphics\jsplus\018-LeadSummary.jpg" />
+    <Content Include="Graphics\jsplus\019-Backup-small.jpg" />
+    <Content Include="Graphics\jsplus\019-Backup.jpg" />
+    <Content Include="Graphics\jsplus\020-Dropdown-small.jpg" />
+    <Content Include="Graphics\jsplus\020-Dropdown.jpg" />
+    <Content Include="Graphics\jsplus\021-Ribbon-small.jpg" />
+    <Content Include="Graphics\jsplus\021-Ribbon.jpg" />
+    <Content Include="Graphics\jsplus\022-TitleSort.jpg" />
+    <Content Include="Graphics\jsplus\023-Checked.jpg" />
+    <Content Include="Graphics\jsplus\024-ViewDetails.jpg" />
+    <Content Include="Graphics\jsplus\025-Reports.jpg" />
+    <Content Include="Graphics\jsplus\026-Search.jpg" />
+    <Content Include="Graphics\jsplus\027-ControlTip.jpg" />
+    <Content Include="Graphics\jsplus\028-ClearSelections.jpg" />
+    <Content Include="Graphics\jsplus\029-Icon.jpg" />
+    <Content Include="Graphics\jsplus\030-JLCDataSelect.jpg" />
+    <Content Include="Graphics\jsplus\031-Attachments.jpg" />
+    <Content Include="Graphics\jsplus\032-RefData.jpg" />
+    <Content Include="Graphics\jsplus\033-AddIcon.jpg" />
+    <Content Include="Graphics\jsplus\034-JLCAddNew.jpg" />
+    <Content Include="Graphics\jsplus\035-JLQEAddNew.jpg" />
+    <Content Include="Graphics\jsplus\036-ActivityGrid.jpg" />
+    <Content Include="Graphics\jsplus\037-ActivityEdit.jpg" />
+    <Content Include="Graphics\jsplus\038-CompanyView.jpg" />
+    <Content Include="Graphics\jsplus\039-JLCAddControls.jpg" />
+    <Content Include="Graphics\jsplus\719038.jpg" />
+    <Content Include="Graphics\jsplus\handshake.gif" />
+    <Content Include="Graphics\jsplus\jslogo.gif" />
+    <Content Include="Graphics\Theme\backgrnd.gif" />
+    <Content Include="Graphics\Theme\binlogo.gif" />
+    <Content Include="Graphics\Theme\dirlogo.gif" />
+    <Content Include="Graphics\Theme\header.jpg" />
+    <Content Include="Graphics\Theme\lgrey064.jpg" />
+    <Content Include="Graphics\Theme\listbullet.gif" />
+    <Content Include="Graphics\Theme\nobullet.gif" />
+    <Content Include="Graphics\Theme\paper.jpg" />
+    <Content Include="Graphics\Theme\whitblur.jpg" />
+    <Content Include="Pages\db-design-guide.aspx" />
+    <Content Include="Pages\firstguide-support.aspx" />
+    <Content Include="Pages\ms-access-for-beginners.aspx" />
+    <Content Include="Pages\comeau-resume.aspx" />
+    <Content Include="Pages\JobSearch.aspx" />
+    <Content Include="Pages\jsmanual.htm" />
+    <Content Include="Pages\projects.aspx" />
+    <Content Include="Pages\serv-access.aspx" />
+    <Content Include="Pages\serv-epub.aspx" />
+    <Content Include="Pages\serv-stc.aspx" />
+    <Content Include="Pages\serv-wos.aspx" />
+    <Content Include="Pages\Services.aspx" />
+    <Content Include="privacy.aspx" />
+    <Content Include="Search.aspx" />
+    <Content Include="sitemap.txt" />
+    <Content Include="Styles\Copy of main.css" />
+    <Content Include="Styles\mobile.css" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="404error.aspx.cs">
+      <DependentUpon>404error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404error.aspx.designer.cs">
+      <DependentUpon>404error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminpanel.aspx.cs">
+      <DependentUpon>adminpanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminpanel.aspx.designer.cs">
+      <DependentUpon>adminpanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\201206051547.aspx.cs">
+      <DependentUpon>201206051547.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\201206051547.aspx.designer.cs">
+      <DependentUpon>201206051547.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\201206100849.aspx.cs">
+      <DependentUpon>201206100849.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\201206100849.aspx.designer.cs">
+      <DependentUpon>201206100849.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\201206100958.aspx.cs">
+      <DependentUpon>201206100958.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\201206100958.aspx.designer.cs">
+      <DependentUpon>201206100958.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\using-typed-datasets.aspx.cs">
+      <DependentUpon>using-typed-datasets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\using-typed-datasets.aspx.designer.cs">
+      <DependentUpon>using-typed-datasets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\moving-to-visual-studio.aspx.cs">
+      <DependentUpon>moving-to-visual-studio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\moving-to-visual-studio.aspx.designer.cs">
+      <DependentUpon>moving-to-visual-studio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Articles\questions-to-ask-interviewers.aspx.cs">
+      <DependentUpon>questions-to-ask-interviewers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Articles\questions-to-ask-interviewers.aspx.designer.cs">
+      <DependentUpon>questions-to-ask-interviewers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AppData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AppSessionData.cs" />
+    <Compile Include="Classes\General.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorPage.aspx.cs">
+      <DependentUpon>errorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="errorPage.aspx.designer.cs">
+      <DependentUpon>errorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\db-design-guide.aspx.cs">
+      <DependentUpon>db-design-guide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\db-design-guide.aspx.designer.cs">
+      <DependentUpon>db-design-guide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\firstguide-support.aspx.cs">
+      <DependentUpon>firstguide-support.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\firstguide-support.aspx.designer.cs">
+      <DependentUpon>firstguide-support.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ms-access-for-beginners.aspx.cs">
+      <DependentUpon>ms-access-for-beginners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ms-access-for-beginners.aspx.designer.cs">
+      <DependentUpon>ms-access-for-beginners.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\comeau-resume.aspx.cs">
+      <DependentUpon>comeau-resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\comeau-resume.aspx.designer.cs">
+      <DependentUpon>comeau-resume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\JobSearch.aspx.cs">
+      <DependentUpon>JobSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\JobSearch.aspx.designer.cs">
+      <DependentUpon>JobSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\projects.aspx.cs">
+      <DependentUpon>projects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\projects.aspx.designer.cs">
+      <DependentUpon>projects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\serv-access.aspx.cs">
+      <DependentUpon>serv-access.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\serv-access.aspx.designer.cs">
+      <DependentUpon>serv-access.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\serv-epub.aspx.cs">
+      <DependentUpon>serv-epub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\serv-epub.aspx.designer.cs">
+      <DependentUpon>serv-epub.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\serv-stc.aspx.cs">
+      <DependentUpon>serv-stc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\serv-stc.aspx.designer.cs">
+      <DependentUpon>serv-stc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\serv-wos.aspx.cs">
+      <DependentUpon>serv-wos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\serv-wos.aspx.designer.cs">
+      <DependentUpon>serv-wos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="privacy.aspx.cs">
+      <DependentUpon>privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacy.aspx.designer.cs">
+      <DependentUpon>privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Classes\AppData.xsc">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </None>
+    <None Include="Classes\AppData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Classes\AppData.xss">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </None>
+    <Content Include="Downloads\DC10CODE.zip" />
+    <Content Include="Downloads\DC10EXE.zip" />
+    <Content Include="Downloads\DC10PUB.zip" />
+    <Content Include="Site.Master" />
+    <Content Include="packages.config" />
+    <Content Include="Downloads\MABPreview.pdf" />
+    <None Include="Downloads\FirstGuidePreview.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Indexes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3277</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

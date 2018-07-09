@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Drewslair.com - Sample Code</title>
+</head>
+
+<body>
+
+<pre>For an explanation of this code, please see:
+<a href="http://www.andrewcomeau.com/articles/201206100958.aspx">http://www.andrewcomeau.com/articles/201206100958.aspx</a></pre>
+<pre>    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load</pre>
+<pre><font color="#008000">        'Page load event - reads a random quote from the quotes database and displays it
+        'as part of the page header section.</font></pre>
+<pre><font color="#008000">	'Assume CONN_STRING is a constant that holds the connection string to the database.
+</font>        Dim QuoteDB As New SqlDataSource(CONN_STRING, &quot;Select * from Quotes&quot;)
+        Dim dtQuotes As DataTable
+        Dim dvQuotes As DataView
+        Dim QuoteCount As Integer
+        Dim QuoteSelect As Integer
+        Dim QuoteRow As DataRow</pre>
+<pre>        dvQuotes = QuoteDB.Select(New DataSourceSelectArguments())
+        dtQuotes = dvQuotes.Table</pre>
+<pre>        Try
+<font color="#008000">            'Use the timer to seed the random function.</font>
+            Randomize(Timer)
+            'Read data table, count the quotes and select a random quote for display.
+            QuoteCount = dtQuotes.Rows.Count
+            QuoteSelect = CInt(Int((QuoteCount * Rnd()) + 1))
+            QuoteRow = dtQuotes.Rows(QuoteSelect - 1)
+<font color="#008000">            'Send the quote strings to a function that will assemble the HTML for display
+            'in the Literal control.</font>
+            QuoteBox.Text = QuoteBoxText(QuoteRow(1).ToString, QuoteRow(2).ToString)</pre>
+<pre>        Catch ex As Exception</pre>
+<pre><font color="#008000">            'Display default quote.</font>
+            QuoteBox.Text = QuoteBoxText(&quot;The law of unintended consequences governs all technological revolutions.&quot;, &quot;Arnold J. Toynbee&quot;)</pre>
+<pre>        Finally</pre>
+<pre><font color="#008000">            'Destroy the objects</font>
+	    QuoteDB = Nothing
+            dtQuotes = Nothing
+            dvQuotes = Nothing
+            QuoteRow = Nothing</pre>
+<pre>        End Try</pre>
+<pre>    End Sub</pre>
+
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\bin\TestTwo.dll
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\bin\TestTwo.pdb
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\obj\Debug\TestTwo.dll
+C:\Documents and Settings\Andrew\Desktop\TestTwo\TestTwo\obj\Debug\TestTwo.pdb

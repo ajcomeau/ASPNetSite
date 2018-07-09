@@ -1,0 +1,217 @@
+﻿
+html, body 		{ margin: 0; padding: 0; background: none; background-repeat:repeat; background-image: url('../Graphics/Theme/whitblur.jpg');}
+body 			{ color: #333; font: .9em Helvetica MS, Arial, sans-serif; line-height: 18px;}
+     
+h2              {display: block; margin-top: 2em; line-height: 1.2em;}
+h3              {display: block; margin-top: 2em;}
+h4              {display: block; margin-top: 2em;}
+h5              {display: block; font-size: 1em; font-weight: normal; margin-top: 2em; font-style:italic;}
+
+a:link          {color: #0000FF;}
+a:visited       {color: #800080;}
+a:hover         {color: #000000;}
+a:active        {color: #800080;}
+
+
+p				{margin: 0 0 18px; }
+
+img             {border-width: 0px; margin-left: 10px; margin-right: 10px; }
+ul              {list-style-image: url('../Graphics/Theme/listbullet.gif')}
+ul.nav          {display: block; list-style-type: none; list-style-image: url('../Graphics/Theme/nobullet.gif'); width: 200px;}
+ul.nav li       {display: block; border-bottom: 3px groove rgb(51, 153, 153); line-height: 2em; text-align: left;}
+ul.nav a        {display: block; text-decoration: none;}
+ul.nav a:hover  {display: block; border-left: 3px solid rgb(51, 153, 153);}
+pre             {margin-top: 2em; margin-bottom: 2em; font-size: 0.9em; font-family:  Courier New, Courier; border: 1px dashed #339999; padding: 5x;}
+
+/* Header */
+#header h1  	{ color: #000099; margin: 0 0 3px; padding: 24px 18px 0; font-size: 24px; }
+#header p		{ color: #666; font-size: 11px; font-weight: bold; padding: 0 18px; }
+#header p.description
+                { color: #000099; margin: 0 0 10px; padding: 5 5 0; }
+#header h1 a    { text-decoration: none; color: #000099;}
+	
+/* Content Style */
+#moreinfo		{ border-bottom: 1px solid #ccc; padding-left: 18px; }
+#moreinfo ul	{ padding: 0 18px 9px; }
+#extra			{ border-bottom: 1px solid #ccc; padding-left: 18px; }
+#badge			{ border-bottom: 1px solid #ccc; padding-left: 18px; }
+#extra small	{ font-size: 11px; line-height: 18px; }
+#content p, #extra p { padding-right: 18px;}
+#footer a		{ color: #eee; z-index: 2;}
+#footer	p		{ color: #ccc; margin: 0; padding: 0 18px 10px; z-index: 2;}
+#footer ul		{ border-bottom: 1px solid #555; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; z-index: 2;}
+#footer li		{ display: inline; font-size: 11px; font-weight: bold; padding-right: 5px; z-index: 2;}
+	
+/* Content Positioning and Size */
+#header			{ border-bottom: 2px solid #ddd; }
+#container      { min-width: 1024px; }  /* encompases entire window */
+#pagebody		{ width: 100%; } /* Wraps center body of page */
+#pagebodyleft	{ width: 275px; float: left;}	
+#share_box      { position: fixed; right: -100px; top: 150px; width:60px; border-style:none;  }  /* Social networking box */
+#moreinfo		{ float: left; } /* left side - top */
+#extra			{ float: left; } /* Left side - additional items */
+#content		{ margin-left: 120px; width: 50%; float: left; background-image: url('../Graphics/Theme/whitblur.jpg');} /* main content */
+#contentcenter  { margin-left: 25%; width: 50%; min-width: 650px;}
+#footer			{ background: #000066; border-bottom: 2px solid #000066; clear: both; width: 100%; } /* bottom of page */
+
+#admincontainer { min-width: 1280px; }
+#admincontent   { margin-left: 10%; width: 900px; }
+
+div.itemwrap {float:inherit; clear:both; width:100%; min-width: 200px; z-index: 5;}
+    
+div.contentcenter {text-align: center;}
+	.contentcenter p {text-align: center;}
+
+#topmenu		    { border-bottom: 2px solid #999; clear: both; color:#000099 }
+#topmenu a          { color: #000099; text-decoration: none;}
+#topmenu a:hover    { color: #0000FF; text-decoration: none;}
+#topmenu a:active   { color: #0000FF; }
+#topmenu p  	    { color: #ccc; margin: 0; padding: 0 18px 10px; }
+#topmenu ul		    { list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; }
+#topmenu li		    { display: inline; font-size: 15px; padding-right: 5px; padding-left: 5px; border-left-style: outset; border-left-width: 3px; }
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#3a4f63;
+    width:100%;
+}
+
+div.menu    
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul 
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    border-style: outset;
+    border-width: 1px;
+    border-color: #666666 #000000 #000000 #666666;
+    background-color: #3333CC;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.1em;
+    padding: 4px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 1px 3px 1px 3px;
+    width: auto;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #3333FF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+
+/*	CUSTOM CLASSES	*/
+
+/* Article Headers */
+
+.articletitle {font-size: 14pt; font-weight: bold;}
+.articletitlecenter {font-size: 14pt; font-weight: bold; text-align: center;}
+.articlesub {font-size: 12pt; font-weight: bold;}
+.articlesubcenter {font-size: 12pt; font-weight: bold; text-align:center;}
+.articledesc {font-size: 10pt; margin-top: -1.5em;}
+.reftitle {font-style: italic;}
+.dirpath {font-variant: small-caps; font-weight: bold;}
+.centercontent {width: 50%; margin-bottom: 25px; margin-left: 25%; padding-left: 50px; padding-right: 50px;}
+.glossary {width: 650px; margin-left: 275px; margin-right: 150px; margin-bottom: 25px; padding-left: 50px;padding-right: 50px;}
+.leftsidebar {float: left; width: 200px; text-align: center;}
+.rightsidebar {margin-left: 950px; width: 150px; text-align: center;}
+
+/* Site Decor */
+
+.sitename {font-family: Trebuchet MS, Arial, sans-serif;  font-size: 40px;  font-weight: bold;  line-height: .75em;  color: rgb(41, 123, 123);  text-align: right;}
+.sitename a {text-decoration: none;}
+.sitenamesub {font-family: Trebuchet MS, Arial, sans-serif;  font-size: 20px;  line-height: .75em;  color: rgb(51, 153, 153);  text-align: left;}
+.sitenamesub a {text-decoration: none;}
+
+/* CONTENT FORMATTING */
+
+.term {font-style: italic;}
+.propertitle {font-style: italic;}
+.company {text-decoration: underline;}
+.jobtitle {font-style: italic;}
+.title {text-decoration: underline;}
+.author {font-style: italic;}
+.note { border: 2px outset #DDFBF7;  color: #000000;  background-color: #DDFBF7;  overflow: hidden;  margin: 10px 75px 10px 75px;  padding: 10px 10px 10px 10px;}
+.notelk { font-size: .85em; border: 1px inset #000000;  color: #000000;  overflow: hidden;  margin: 10px 75px 10px 75px;  padding: 10px 10px 10px 10px;}
+.cautionnote { border: 2px outset #F3BFC4;  color: #000000;  background-color: #F3BFC4;  overflow: hidden;  margin: 10px 75px 10px 75px;  padding: 10px 10px 10px 10px;}
+.indent {margin-left: 3em; margin-right: 3em;}
+.code {margin-top: 2em; margin-bottom: 2em; font-size: 0.9em; font-family:  Courier New, Courier; border: 1px dashed #339999; padding: 5x;}
+.inlinecode {font-family:  Courier New, Courier;}
+.codecomment {color: #00CC00; padding: 5x;}
+.keystroke {font-variant: small-caps; font-weight: bold;}
+.disclaimer {font-size: .80em; font-style: italic;}
+.articleindex li {margin-top: 1.5em}
+
+
+/* DIV SETTINGS */
+
+div.bookdesc {display: block; width: 100%; overflow: hidden; margin-bottom: 25px; border-bottom-style:groove; border-bottom-width: 2px; border-top-style:groove; border-top-width: 2px; padding-bottom: 10px; padding-top: 10px;}
+	.bookdesc img {float:  left;}
+
+div.bookdesc-noborder {display: block; width: 100%; overflow: hidden; margin-top: 10px; margin-bottom: 10px; padding-bottom: 10px; padding-top: 10px;}
+	.bookdesc img {float:  left;}
+
+div.fltcenter {margin-left: 50px; margin-right: 50px; text-align: center;}
+	.fltcenter p {text-align: center; font-style: italic; font-size: .80em; margin-top: 5px; margin-bottom: 10px; margin-left: 20px; margin-right: 20px;}
+
+div.fltleft {float: left; margin-right: 10px; margin-left: 10px;}
+	.fltleft p {font-style: italic; font-size: .80em; margin-top: 5px; margin-bottom: 10px; margin-left: 20px; margin-right: 20px; width: 250px;}
+
+div.fltleft-2 {float: left; margin-right: 25px; padding-left: 30px;}
+	.fltleft-2 p {display: block; font-style: italic; font-size: .80em; margin-top: 5px; margin-bottom: 10px; width: 250px;}
+    
+div.fltright {float: right; margin-right: 10px; margin-left: 10px;}
+	.fltright p {font-style: italic; font-size: .80em; margin-top: 5px; margin-bottom: 10px; margin-left: 20px; margin-right: 20px; width: 250px;}
+
+
+.accordion {width: 400px;
+    text-align: left;
+}  
+          
+.accordionHeader
+{
+    background-color: #D3DEEF;  
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}  
+          
+.accordionHeaderSelected
+{  
+    font-weight: bold;  
+    padding: 5px;  
+    margin-top: 5px;  
+    cursor: pointer;  
+}  
+          
+.accordionContent 
+{  
+    border-top: none;  
+    padding: 5px;  
+    padding-top: 10px;  
+}  

@@ -1,0 +1,273 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="SiteMaster.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Main.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<!-- Facebook code -->
+        <div id="fb-root"></div>
+        <script type="text/javascript">    
+        (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    } (document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    <form id="form1" runat="server">
+
+    	<div id="container">
+		<div id="header">
+			<h1><a href="/">AndrewComeau.com</a></h1>
+            
+			<p class="description">... because knowledge is meant to be shared.</p>
+            <asp:Literal ID="QuoteBox" runat="server"></asp:Literal>
+            <div id="topmenu">
+            <ul>
+				<li><a href="/About.aspx">About</a></li>
+				<li><a href="/Search.aspx"><b>Article Search</b></a></li>
+				<li><a href="/Pages/Services.aspx">Consulting Services</a></li>
+                <li><a href="/Pages/JobSearch.aspx">Job Search Plus</a></li>
+            </ul>
+            </div>
+            </div>
+		<div id="wrapper">
+			<div id="content">
+            <br />            
+
+                <table align="left" width="100%">
+                    <tr>
+                        <td>
+                            <div class="fb-like" data-href="http://www.andrewcomeau.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                        </td>
+                        <td>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="ComeauAndrew">Tweet</a>
+                        <script>    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+                        </td>
+                        <td>
+
+                            <!-- Place this tag where you want the +1 button to render -->
+                            <g:plusone annotation="inline"></g:plusone>
+                            <!-- Place this render call where appropriate -->
+                            <script type="text/javascript">
+                                (function () {
+                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                    po.src = 'https://apis.google.com/js/plusone.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                })();
+                            </script>
+                            <noscript><a href="https://plus.google.com/104193198402722705942">Find us on Google+</a></noscript>
+                        </td>
+                    </tr>
+                </table>
+                <br /><br />            
+            
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            
+                <p align="center"><a href="http://www.andrewcomeau.com/Search.aspx">See More Articles on AndrewComeau.com ...</a></p>
+                <p align="center">Questions about this or other articles?&nbsp;
+                    <a href="mailto:sitemaster@drewslair.com?subject=AndrewComeau.com Question">
+                    E-mail me here</a>.</p>
+                
+                <table align="left" width="100%">
+                    <tr>
+                        <td style="width: 180px;">
+                            <div class="fb-like" data-href="http://www.andrewcomeau.com" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+                        </td>
+                        <td>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="ComeauAndrew">Tweet</a>
+                        <script>                            !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+                        </td>
+                        <td>
+                            <!-- Place this tag where you want the +1 button to render -->
+                            <g:plusone annotation="inline"></g:plusone>
+                            <!-- Place this render call where appropriate -->
+                            <script type="text/javascript">
+                                (function () {
+                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                    po.src = 'https://apis.google.com/js/plusone.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                })();
+                            </script>
+                            <noscript><a href="https://plus.google.com/104193198402722705942">Find us on Google+</a></noscript>
+                        </td>
+                    </tr>
+                </table>
+            <br />
+            <br />
+			</div>
+		</div>
+		<div id="moreinfo">
+			<h2>&nbsp;</h2>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+
+                <div class="itemwrap">
+                    <div class="contentcenter">
+
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-0649535755102285";
+                    /* ACCOM-20121006-2 */
+                    google_ad_slot = "2233037938";
+                    google_ad_width = 200;
+                    google_ad_height = 200;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+                <noscript>
+                JavaScript is not enabled in your browser. Certain site features will be disabled.
+                </noscript>
+                        <br />
+                        <br />
+
+           
+                    </div>
+                </div>
+
+            </asp:ContentPlaceHolder>
+            <br />
+		</div>
+		<div id="extra">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+                <div class="contentcenter">
+                                    <br />
+                <asp:Label ID="lblIntro" runat="server"></asp:Label>
+                
+                    <br />
+                                    
+                <asp:Literal ID="litImage" runat="server"></asp:Literal>                
+                <br />
+
+                <asp:Literal ID="litText" runat="server"></asp:Literal>
+                    <br />
+                      <asp:Label ID="lblAuthor" runat="server"></asp:Label>
+
+                <br />
+                <asp:Literal ID="litAlt" runat="server"></asp:Literal>
+                <br />
+                  &nbsp;
+
+
+                </div>
+        
+            </asp:ContentPlaceHolder>
+
+            <div class="itemwrap">
+                <div class="contentcenter">
+                
+                Also Available on Amazon.com!<br>
+                <a target="blank" href="http://www.amazon.com/Microsoft-Access-for-Beginners-ebook/dp/B0061RK6VO">
+                <img border="0" src= "http://www.drewslair.com/images/books/mab.jpg" width="150" /></a><br />
+                    <a href="http://www.amazon.com/gp/product/B0061RK6VO/ref=as_li_ss_tl?ie=UTF8&amp;tag=drewslaircom-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0061RK6VO">
+                    Microsoft Access for Beginners</a><br />
+                    Kindle Edition<br />
+                    Andrew Comeau</div>
+            </div>
+ 
+             <div class="itemwrap">
+                <div class="contentcenter">
+                <br />
+ 	                 <img src="http://www.drewslair.com/images/MCP(rgb).jpg" 
+                        alt="Microsoft Certified Professional" title="Microsoft Certified Professional" 
+	                 border="0" /> 
+                </div>
+             </div>
+
+            <div class="itemwrap">
+                <div class="contentcenter">
+                <br />
+	                 <a target="_blank" href="http://www.linkedin.com/in/andrewcomeau">
+	                 <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x33.gif" alt="View Andrew Comeau's profile on LinkedIn" title="Visit Andrew Comeau's LinkedIn profile." border="0" /></a>
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+            <div class="itemwrap">
+                <div class="contentcenter">
+                <a href="https://plus.google.com/104193198402722705942?prsrc=3" rel="publisher" style="text-decoration:none;"><img title="Follow us on Google+" src="https://ssl.gstatic.com/images/icons/gplus-64.png" alt="" style="border:0;width:64px;height:64px;"/></a>
+                <br />
+                <a href="https://plus.google.com/104193198402722705942" rel="publisher">Find us on Google+</a>
+                <br />
+                </div>
+            </div>
+
+            <div class="itemwrap">
+                <div class="contentcenter">
+                <br />
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-0649535755102285";
+                    /* ACCOM-20121006-2 */
+                    google_ad_slot = "2233037938";
+                    google_ad_width = 200;
+                    google_ad_height = 200;
+                //-->
+                </script>
+                <script type="text/javascript"
+                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+                <noscript>
+                JavaScript is not enabled in your browser. Certain site features will be disabled.
+                </noscript>
+                    <br />
+                    <br />
+                </div>
+            </div>
+
+
+		</div>
+		<div id="footer">
+			<ul style="text-align: center;">
+				<li><a href="http://www.andrewcomeau.com">Home</a></li>
+				<li><a href="http://www.andrewcomeau.com/About.aspx">About Us</a></li>
+				<li><a href="http://www.andrewcomeau.com/privacy.aspx">Privacy Policy</a></li>
+				<li><a href="http://www.andrewcomeau.com/Search.aspx"><b>Article Search</b></a></li>
+			</ul>
+            <div class="itemwrap">
+                <div class="contentcenter">
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-0649535755102285";
+                    /* ACCOM-FooterOne */
+                    google_ad_slot = "6961019750";
+                    google_ad_width = 468;
+                    google_ad_height = 60;
+                    //-->
+                    </script>
+                    <script type="text/javascript"
+                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+                </div>
+            </div>
+
+			<p style="text-align: center;">© 2012, Andrew Comeau, except where otherwise noted. 
+                AndrewComeau.com content should not be republished without written permission 
+                from the author. Read our <a href="http://www.andrewcomeau.com/privacy.aspx">privacy policy.</a>
+                <br />
+                More questions? Contact us 
+                at <a href="mailto:sitemaster@drewslair.com">this address</a>.
+                <br />
+                <br />
+                Microsoft and Amazon.com are registered trademarks their respective companies in the United 
+                States and other countries.</p>
+		</div>
+	</div>
+
+
+    </form>
+
+</body>
+</html>

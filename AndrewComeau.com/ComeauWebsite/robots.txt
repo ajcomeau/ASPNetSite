@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /data/
+Disallow: /downloads/
+Disallow: /wp/

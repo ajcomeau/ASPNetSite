@@ -1,0 +1,74 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Drewslair.com - Sample Code</title>
+</head>
+
+<body>
+
+<pre>For an explanation of this code, please see:
+<a href="http://www.andrewcomeau.com/articles/201206100958.aspx">http://www.andrewcomeau.com/articles/201206100958.aspx</a></pre>
+<pre>Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Configuration
+Imports Microsoft.VisualBasic</pre>
+<pre>Public Class clsData</pre>
+<pre>    Private mconnData As SqlConnection</pre>
+<pre>    Public ReadOnly Property DBConn() As SqlConnection
+        Get
+            DBConn = mconnData
+        End Get
+    End Property</pre>
+<pre>    Public Sub New()</pre>
+<pre>        Dim strConn As String = ConnectString()</pre>
+<pre>        If strConn &lt;&gt; &quot;&quot; Then
+            mconnData = New SqlConnection(strConn)
+            mconnData.Open()
+        End If</pre>
+<pre>    End Sub</pre>
+<pre>    Private Function ConnectString() As String</pre>
+<pre>     <font color="#008000">   'Reference the Web.Config file for the SQL connection string.
+</font>	Dim settings As ConnectionStringSettings = ConfigurationManager.ConnectionStrings(&quot;DBConnection&quot;)</pre>
+<pre>        If Not settings Is Nothing Then
+            ConnectString = settings.ConnectionString
+        Else
+            ConnectString = &quot;&quot;
+        End If</pre>
+<pre>    End Function</pre>
+<pre>    Public Function GetScalar(ByVal cmdText As String) As String</pre>
+<pre>        Dim adapterSQL As New SqlDataAdapter(cmdText, mconnData)
+        Dim dtSQL As New DataTable
+        Dim intReturn As Integer</pre>
+<pre>        intReturn = adapterSQL.Fill(dtSQL)</pre>
+<pre>        If intReturn &gt; 0 Then
+            GetScalar = dtSQL.Rows(0).Item(0).ToString
+        Else
+            GetScalar = &quot;&quot;
+        End If</pre>
+<pre>    End Function</pre>
+<pre>    Public Function GetDataTable(ByVal cmdText As String) As DataTable</pre>
+<pre>        Dim adapterSQL As New SqlDataAdapter(cmdText, mconnData)
+        Dim dtSQL As New DataTable
+        Dim intReturn As Integer</pre>
+<pre>        intReturn = adapterSQL.Fill(dtsql)</pre>
+<pre>        If intReturn &gt; 0 Then
+            GetDataTable = dtSQL
+        Else
+            GetDataTable = Nothing
+        End If</pre>
+<pre>    End Function</pre>
+<pre>    Protected Overrides Sub Finalize()</pre>
+<pre>        mconnData = Nothing
+        MyBase.Finalize()
+    
+    End Sub
+</pre>
+<pre>End Class</pre>
+
+</body>
+
+</html>
